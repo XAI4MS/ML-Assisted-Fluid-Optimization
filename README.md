@@ -37,14 +37,6 @@ The workflow focuses on molecular descriptor analysis for 260 candidate molecule
 | Fig. 54a | `result/Fig.54(a) ... chemical inertness..pdf/.svg` | Between-cluster effect size, eta squared, for each chemical-inertness descriptor. |
 | Fig. 54b | `result/Fig.54(b) ... viscosity features..pdf/.svg` | Between-cluster effect size, eta squared, for each viscosity-related descriptor. |
 
-## Data Notes
-
-- `ALL_molecules_final_20251102.xlsx` provides the molecule list and SMILES strings used for sample labels.
-- `data_descriptors_TYPE1.xlsx` and `data_descriptors_TYPE2.xlsx` contain the main descriptor matrices.
-- `data_ref_descriptors_TYPE1.xlsx` and `data_ref_descriptors_TYPE2.xlsx` are included in the MinMax normalization step together with the main descriptor matrices. They affect the scaling range and therefore can affect downstream clustering and descriptor statistics.
-- `TYPE1-tsne-feature.csv` and `TYPE2-tsne-feature.csv` provide precomputed t-SNE coordinates for Supplementary Fig. 52. Required columns are `tsne_1`, `tsne_2`, `label`, and `name`.
-- `RDKit_TYPE1_sequence.csv` and `RDKit_TYPE2_sequence.csv` define descriptor display order for the heatmaps and eta squared plots.
-
 ## Analysis Workflow
 
 The notebook [src/visualization.ipynb](src/visualization.ipynb) performs the following steps:
