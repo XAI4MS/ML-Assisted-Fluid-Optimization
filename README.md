@@ -11,16 +11,6 @@ The workflow focuses on molecular descriptor analysis for 260 candidate molecule
 
 ```text
 .
-├── data/
-│   ├── ALL_molecules_final_20251102.xlsx
-│   ├── RDKit_TYPE1_sequence.csv
-│   ├── RDKit_TYPE2_sequence.csv
-│   ├── TYPE1-tsne-feature.csv
-│   ├── TYPE2-tsne-feature.csv
-│   ├── data_descriptors_TYPE1.xlsx
-│   ├── data_descriptors_TYPE2.xlsx
-│   ├── data_ref_descriptors_TYPE1.xlsx
-│   └── data_ref_descriptors_TYPE2.xlsx
 ├── result/
 │   ├── Fig.50 | A hierarchical cluster dendrogram based on chemical inertness.svg
 │   ├── Fig.51 | A hierarchical cluster dendrogram based on viscosity.svg
